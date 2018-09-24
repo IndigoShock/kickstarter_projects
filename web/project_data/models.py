@@ -1,6 +1,7 @@
 from datetime import datetime as dt
 from django.db import models
 
+
 # Create your models here.
 class Project(models.Model):
     project_id = models.IntegerField()
