@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+numpy = "*"
+"psycopg2-binary" = "*"
+python-dateutil = "*"
+pytz = "*"
+six = "*"
+
+[dev-packages]
+pandas = "*"
+sqlalchemy = "*"
+
+[requires]
+python_version = "3.7"
