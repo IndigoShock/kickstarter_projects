@@ -10,6 +10,8 @@ numpy = "*"
 python-dateutil = "*"
 pytz = "*"
 six = "*"
+libsass = "*"
+django-sass-processor = "*"
 
 [dev-packages]
 pandas = "*"
