@@ -1,0 +1,12 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<h2>Welcome to the kickstarter project site! Check out our projects! </h2>
+
+{% for project in projects %}
+<a href="{% url "project_detail" pk=project.ID %}">
+  <h3>({{ project.category }} is the category) {{ project.name }}</h3>
+</a>
+
+{% endfor %}
+{% endblock content %}
