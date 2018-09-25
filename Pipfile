@@ -12,6 +12,7 @@ pytz = "*"
 six = "*"
 libsass = "*"
 django-sass-processor = "*"
+django-compressor = "*"
 
 [dev-packages]
 pandas = "*"
