@@ -4,14 +4,14 @@ from django.db import models
 
 # Create your models here.
 class Project(models.Model):
-    project_id = models.IntegerField()
+    ID = models.IntegerField()
     name = models.CharField(max_length=1024)
     category = models.CharField(max_length=1024)
     main_category = models.CharField(max_length=1024)
     currency = models.CharField(max_length=32)
-    deadline = models.TimeField()
+    deadline = models.CharField(max_length=1032)
     goal = models.FloatField()
-    launched = models.TimeField()
+    launched = models.CharField(max_length=1032)
     pledged = models.IntegerField()
     state = models.CharField(max_length=64)
     backers = models.IntegerField()
